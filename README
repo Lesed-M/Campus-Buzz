@@ -1,0 +1,28 @@
+CampusBuzz
+
+CampusBuzz is a web application for managing and promoting campus events. Administrators can add, view, edit, and delete events, with data stored in a SQL Server database.
+
+Tech Stack
+Angular
+.NET 8 Web API
+Entity Framework Core
+SQL Server
+xUnit
+Features
+View events with titles, locations, and ticket prices.
+Create, edit, and delete events.
+Form validation to ensure all required fields are completed.
+Unit testing for event retrieval.
+Getting Started
+
+Backend
+
+Open the api folder in Visual Studio.
+Update the database connection string if needed.
+Apply database migrations and run the API.
+
+Frontend
+
+Navigate to the angular folder.
+Run npm install.
+Run ng serve and open the local URL provided.
